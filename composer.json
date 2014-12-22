@@ -1,0 +1,22 @@
+{
+    "name": "christianblos/tinyploy",
+    "description": "Small tool for deployment",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Christian Blos",
+            "email": "christian.blos@gmx.de"
+        }
+    ],
+    "require": {
+        "phellow/cli": "~1.0"
+    },
+    "autoload": {
+        "psr-4": { "Tinyploy\\": "classes/" }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        }
+    }
+}
